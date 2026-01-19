@@ -53,7 +53,13 @@ php artisan serve
 - Passing data from routes to views
 - Working with Git and GitHub
 ## Screenshots
-[Add your screenshots here]
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/e99ace13-c1a8-4da0-8b3b-622893c00db7" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/45cff05f-db54-4376-ac79-01b4cba122c7" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/beb787c7-52b1-4e3e-a9a7-cc3a1c9bdfb3" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/252ad48d-1183-4503-806d-f65e4d162788" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/82e4b7a7-dc55-4d9d-b374-90e8dc60cd59" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/f0841968-07bd-4521-b3bb-99a0c9a283f2" />
+
 ## License
 This project was created for educational purposes.
 ## Acknowledgments
