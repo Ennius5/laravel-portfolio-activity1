@@ -53,12 +53,17 @@ php artisan serve
 - Passing data from routes to views
 - Working with Git and GitHub
 ## Screenshots
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/e99ace13-c1a8-4da0-8b3b-622893c00db7" />
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/45cff05f-db54-4376-ac79-01b4cba122c7" />
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/beb787c7-52b1-4e3e-a9a7-cc3a1c9bdfb3" />
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/252ad48d-1183-4503-806d-f65e4d162788" />
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/82e4b7a7-dc55-4d9d-b374-90e8dc60cd59" />
-<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/f0841968-07bd-4521-b3bb-99a0c9a283f2" />
+<img width="1575" height="1031" alt="Checkpoint 1" src="https://github.com/user-attachments/assets/0082e332-8494-4451-9024-d1a2c7da25bc" />
+<img width="1911" height="1042" alt="Checkpoint 2 - About Me" src="https://github.com/user-attachments/assets/cc0dc975-e0a5-48e4-b653-36248a8f49df" />
+<img width="1883" height="1056" alt="Checkpoint 2 - Contact" src="https://github.com/user-attachments/assets/c3a336dd-661f-4f8d-9da8-39b39daa86bf" />
+<img width="1907" height="1027" alt="Checkpoint 2 - Home" src="https://github.com/user-attachments/assets/be624c8e-82b4-4545-92f2-5bf6189c5527" />
+<img width="1876" height="972" alt="Checkpoint 2 - Projects" src="https://github.com/user-attachments/assets/9c82d032-7ee3-436d-9f42-38fb7dbf8ed3" />
+<img width="1338" height="1021" alt="checkpoint 3- readme md" src="https://github.com/user-attachments/assets/d5bb38ce-ea6f-45dc-a266-e3bed7cbd956" />
+
+
+
+
+
 
 ## License
 This project was created for educational purposes.
