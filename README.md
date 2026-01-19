@@ -1,8 +1,8 @@
 # My Laravel Portfolio
 ## Student Information
-- **Name:** [Your Full Name]
+- **Name:** Ethan H. Campomanes
 - **Course:** Bachelor of Science in Information Technology
-- **University:** [Your University Name]
+- **University:** Central Mindanao university
 ## Project Description
 This is my first Laravel application created for Activity 1. It's a personal
 portfolio website that demonstrates my understanding of Laravel fundamentals
