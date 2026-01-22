@@ -15,6 +15,7 @@ I am a passionate student learning web development with Laravel.
 I enjoy building web applications and solving problems through code.
 My goal is to become a full-stack developer and create impactful digital
 solutions.
+I ate spicy stuff the other day and now I have a very bad stomchache. Help.
 </p>
 </div>
 @endsection

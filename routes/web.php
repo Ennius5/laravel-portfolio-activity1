@@ -6,13 +6,19 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+//  anatomy analysis
 // Home route
 Route::get('/',function (){
     return view('home');
 })-> name ('home');
 
+Route::get('test', function(){
+    return view('test');
+})-> name ('test');
 // About route
 Route::get('/about', function() {
+    // in here, we can declare variables
+    //going to the respective view of this,
     $name = 'Ethan H. Campomanes';
     $course = 'Bachelor of Science in Information Technology';
     $university = 'Central Mindanao University';
@@ -30,6 +36,8 @@ $projects = [
 ['title' => 'Project 1', 'description' => 'My first web project'],
 ['title' => 'Project 2', 'description' => 'E-commerce website'],
 ['title' => 'Project 3', 'description' => 'Mobile app design'],
+['title' => 'Project 4', 'description' => 'Artistic endeavours!'],
+
 ];
 return view('projects', ['projects' => $projects]);
 })->name('projects');

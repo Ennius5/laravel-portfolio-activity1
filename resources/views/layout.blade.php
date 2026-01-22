@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>@yield('title', 'My Portfolio')</title>
-<style>
+<title>@yield('title', 'My Portfolio')
+    </title>
+    <style>
 * {
 margin: 0;
 padding: 0;
@@ -13,7 +14,7 @@ box-sizing: border-box;
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 line-height: 1.6;
-background: #f4f4f4;
+background: #B0B0FF;
 }
 nav {
 background: #333;
@@ -57,14 +58,17 @@ margin-top: 2rem;
 <body>
 <nav>
 <ul>
+
 <li><a href="{{ route('home') }}">Home</a></li>
 <li><a href="{{ route('about') }}">About</a></li>
 <li><a href="{{ route('projects') }}">Projects</a></li>
 <li><a href="{{ route('contact') }}">Contact</a></li>
+<li><a href="{{ route('test') }}">TEST1</a></li>
 </ul>
 </nav>
 <div class="container">
 @yield('content')
+
 </div>
 <footer>
 <p>&copy; {{ date('Y') }} My Portfolio. All rights reserved.</p>
