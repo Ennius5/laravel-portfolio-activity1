@@ -12,9 +12,14 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-line-height: 1.6;
-background: #B0B0FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-image: url('images/Dark-Woods-HD-Photo.jpg'); /* Add your image path */
+    background-size: cover; /* Makes image cover the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Makes it stay in place when scrolling */
+    min-height: 100vh; /* Ensures it covers full viewport height */
 }
 nav {
 background: #333;
@@ -34,11 +39,12 @@ font-weight: bold;
 nav a:hover {
 color: #3498db;
 }
+
 .container {
 max-width: 1200px;
 margin: 2rem auto;
 padding: 2rem;
-background: white;
+background: #BABABA85;
 border-radius: 8px;
 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -47,6 +53,8 @@ color: #333;
 margin-bottom: 1rem;
 }
 footer {
+  position: sticky;
+  flex-shrink: 0;
   text-align: center;
   padding: 20px;
   background: #333;
@@ -78,7 +86,7 @@ footer {
 <li><a href="{{ route('about') }}">About</a></li>
 <li><a href="{{ route('projects') }}">Projects</a></li>
 <li><a href="{{ route('contact') }}">Contact</a></li>
-<li><a href="{{ route('test') }}">Hobbies</a></li>
+<li><a href="{{ route('hobbies') }}">Hobbies</a></li>
 </ul>
 </nav>
 <div class="container">

@@ -1,53 +1,25 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HobbyController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 //  anatomy analysis
 // Home route
-Route::get('/',function (){
-    return view('home');
-})-> name ('home');
+Route::get('/', [HomeController::class, 'index'])-> name ('home');
 
-Route::get('test', function(){
-    return view('test');
-})-> name ('test');
+Route::get('hobbies', [HobbyController::class, 'index'])->name('hobbies');
 // About route
-Route::get('/about', function() {
-    // in here, we can declare variables
-    //going to the respective view of this,
-    $name = 'Ethan H. Campomanes';
-    $course = 'Bachelor of Science in Information Technology';
-    $university = 'Central Mindanao University';
-
-    return view('about', [
-        'name' => $name,
-        'course' => $course,
-        'university' => $university
-    ]);
-})->name('about');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 // Projects route
-Route::get('/projects', function () {
-$projects = [
-['title' => 'Project 1', 'description' => 'My first web project'],
-['title' => 'Project 2', 'description' => 'E-commerce website'],
-['title' => 'Project 3', 'description' => 'Mobile app design'],
-['title' => 'Project 4', 'description' => 'Artistic endeavours!'],
-
-];
-return view('projects', ['projects' => $projects]);
-})->name('projects');
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 
 // Contact route
-Route::get('/contact', function () {
-    $email = 'e.campomanes101848@gmail.com'; // Replace with YOUR email
-    $phone = '+63 9053648280'; // Replace with YOUR phone
-    return view('contact', [
-        'email' => $email,
-        'phone' => $phone
-    ]);
-})->name('contact');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');

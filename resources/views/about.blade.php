@@ -3,7 +3,7 @@
 @section('content')
 <h1>About Me</h1>
 <div style="margin-top: 2rem;">
-<h2 style="color: #3498db;">{{ $name }}</h2>
+<h2 style="color: #001;">{{ $name }}</h2>
 <p style="margin-top: 1rem; font-size: 1.1rem;">
 <strong>Course:</strong> {{ $course }}
 </p>

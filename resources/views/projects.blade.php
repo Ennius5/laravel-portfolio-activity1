@@ -4,7 +4,7 @@
 <h1>My Projects</h1>
 <div style="margin-top: 2rem;"></div>
 @foreach($projects as $project)
-<div style="background: #B0B0FF; padding: 1.5rem; margin-bottom: 1rem;
+<div style="background: #DDD; padding: 1.5rem; margin-bottom: 1rem;
 border-radius: 5px;">
 <h3 style="color: #2c3e50;">{{ $project['title'] }}</h3>
 <p style="margin-top: 0.5rem; color: #555;">{{
