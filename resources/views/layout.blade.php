@@ -47,11 +47,26 @@ color: #333;
 margin-bottom: 1rem;
 }
 footer {
-text-align: center;
-padding: 2rem;
-background: #333;
-color: white;
-margin-top: 2rem;
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+  text-decoration: underline;
 }
 </style>
 </head>
@@ -63,7 +78,7 @@ margin-top: 2rem;
 <li><a href="{{ route('about') }}">About</a></li>
 <li><a href="{{ route('projects') }}">Projects</a></li>
 <li><a href="{{ route('contact') }}">Contact</a></li>
-<li><a href="{{ route('test') }}">TEST1</a></li>
+<li><a href="{{ route('test') }}">Hobbies</a></li>
 </ul>
 </nav>
 <div class="container">
@@ -71,7 +86,15 @@ margin-top: 2rem;
 
 </div>
 <footer>
-<p>&copy; {{ date('Y') }} My Portfolio. All rights reserved.</p>
+  <p>&copy; {{ date('Y') }} My Portfolio. All rights reserved.</p>
+
+  <div class="social-links">
+    <a href="https://github.com/Ennius5" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://linkedin.com/in/Ennius5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://twitter.com/Ennius5" target="_blank" rel="noopener noreferrer">Twitter</a>
+    <a href="https://instagram.com/Ennius5" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="mailto:e.campomanes101848@gmail.com">Email</a>
+  </div>
 </footer>
 </body>
 </html>
